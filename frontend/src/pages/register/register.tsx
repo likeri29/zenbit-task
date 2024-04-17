@@ -18,7 +18,6 @@ const Register: React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
   const navigate = useNavigate();
   const { accessToken } = useSelector((state: IRootState) => state.auth);
-  console.log(accessToken);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const name = e.target.name;

@@ -11,9 +11,6 @@ export const registerUser = createAsyncThunk(
   async (user: object, thunkAPI) => {
     try {
       const response = await customFetch.post("/users", user);
-      console.log(response.data);
-      console.log(response);
-
       addTokenToLocalStorage(response.data.accessToken);
       return response.data;
     } catch (error) {
@@ -27,8 +24,6 @@ export const loginUser = createAsyncThunk(
   async (user: object, thunkAPI) => {
     try {
       const response = await customFetch.post("/auth/login", user);
-      console.log(response.data.accessToken);
-
       addTokenToLocalStorage(response.data.accessToken);
       return response.data;
     } catch (error) {
