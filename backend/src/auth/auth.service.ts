@@ -39,21 +39,6 @@ export class AuthService {
     };
   }
 
-  //   async validateUser(email: string, password: string) {
-  //     const user = await this.usersService.findOne(email);
-
-  //     if (!user) {
-  //       throw new UnauthorizedException('Such user does not exist');
-  //     }
-
-  //     const isMatchedPassword = await bcrypt.compare(password, user.password);
-
-  //     if (isMatchedPassword) {
-  //       return user;
-  //     }
-
-  //     throw new UnauthorizedException('Password is incorrect');
-  //   }
   async validateUser(email: string, password: string) {
     const user = await this.usersService.findOne(email);
 
