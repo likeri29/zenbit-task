@@ -29,3 +29,19 @@
 .member {
   align-self: center;
 }
+
+@media screen and (max-width: 834px) {
+  .register img {
+    display: none;
+  }
+
+  .form {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .register img {
+    width: 50%;
+  }
+}

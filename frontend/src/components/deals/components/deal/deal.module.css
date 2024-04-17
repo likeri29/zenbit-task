@@ -21,3 +21,22 @@
   row-gap: 10px;
   column-gap: 60px;
 }
+
+@media screen and (max-width: 834px) {
+  .deal {
+    width: 300px;
+    height: 200px;
+    padding: 0 7px 10px;
+  }
+
+  .deal h3 {
+    font-size: 16px;
+    line-height: 10px;
+  }
+
+  .dealProperties {
+    font-size: 12px;
+    row-gap: 5px;
+    column-gap: 30px;
+  }
+}

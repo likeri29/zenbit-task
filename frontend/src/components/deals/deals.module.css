@@ -14,3 +14,21 @@
   font-weight: 700;
   color: #b29f7e;
 }
+
+@media screen and (max-width: 834px) {
+  .dealsContainer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .deals {
+    padding: 20px;
+  }
+  .dealsHeader {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+  }
+}

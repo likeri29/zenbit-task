@@ -44,3 +44,25 @@
 .buttonContainer {
   width: 160px;
 }
+
+@media screen and (max-width: 834px) {
+  .hero {
+    height: 100vh;
+  }
+  .heroContent {
+    padding: 200px 0 0 50px;
+    gap: 10px;
+    width: 300px;
+  }
+  .heroContent h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+
+  .heroContent p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

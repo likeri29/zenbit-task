@@ -14,3 +14,13 @@
 .buttonLink {
   width: 100%;
 }
+
+@media screen and (max-width: 834px) {
+  .header {
+    padding: 5px;
+  }
+  .buttonsContainer {
+    width: 250px;
+    gap: 10px;
+  }
+}
