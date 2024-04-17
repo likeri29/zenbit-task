@@ -1,0 +1,23 @@
+.deal {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  height: 400px;
+  width: 630px;
+  color: #fff;
+  padding: 0 14px 20px;
+  gap: 10px;
+}
+
+.deal h3 {
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.dealProperties {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 60px;
+}

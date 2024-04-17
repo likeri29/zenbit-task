@@ -1,0 +1,46 @@
+.hero {
+  background: no-repeat center url("../../assets/hero-bg.png");
+  background-size: cover;
+  height: 1024px;
+  width: 100vw;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #172234;
+  opacity: 0.6;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 999;
+  padding: 300px 200px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.heroContent h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 700;
+}
+
+.heroContent p {
+  width: 822px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.buttonContainer {
+  width: 160px;
+}

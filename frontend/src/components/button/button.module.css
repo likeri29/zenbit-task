@@ -1,0 +1,39 @@
+.button {
+  width: 100%;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: 1px transparent;
+  font-size: 16px;
+  padding: 11px 0;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s,
+    color 0.3s transform 0.3s;
+}
+
+.buttonOutlined {
+  color: #b29f7e;
+  background-color: transparent;
+  border: 1px solid #b29f7e;
+}
+
+.buttonOutlined:hover {
+  color: #fff;
+  background-color: #b29f7e;
+}
+
+.buttonFilled {
+  color: #fff;
+  background-color: #b29f7e;
+}
+
+.buttonFilled:hover {
+  color: #b29f7e;
+  background-color: transparent;
+  border: 1px solid #b29f7e;
+}
+
+.buttonWhite {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}

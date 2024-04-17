@@ -1,0 +1,16 @@
+.dealsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.deals {
+  padding: 50px 80px;
+}
+.dealsHeader {
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  color: #b29f7e;
+}
