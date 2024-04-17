@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Register, Error } from "../pages/pages";
+import { Home, Register, NotFound } from "../pages/pages";
 import { Header } from "../components/components";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="register" element={<Register />} />
-        <Route path="*" element={<Error />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
