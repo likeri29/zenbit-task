@@ -1,0 +1,31 @@
+.register {
+  display: flex;
+}
+
+.form {
+  align-self: center;
+  margin: 0 auto;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.button {
+  color: #b29f7e;
+  background: none;
+  border: none;
+  align-self: flex-end;
+  font-size: 14px;
+}
+
+.member {
+  align-self: center;
+}

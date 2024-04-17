@@ -1,0 +1,12 @@
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 5px;
+}
