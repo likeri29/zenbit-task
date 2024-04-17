@@ -50,7 +50,7 @@ const deals = [
 
 const Deals: React.FC = () => {
   return (
-    <section className={styles.deals}>
+    <section className={styles.deals} id="deals">
       <h2 className={styles.dealsHeader}>Open Deals</h2>
       <div className={styles.dealsContainer}>
         {deals.map((deal) => (

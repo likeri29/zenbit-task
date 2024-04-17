@@ -1,6 +1,6 @@
 import { Button } from "../components";
 import styles from "./header.module.css";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header: React.FC = () => {
   const location = useLocation();
@@ -10,8 +10,12 @@ const Header: React.FC = () => {
       <div className={styles.buttonsContainer}>
         {!hideButtons && (
           <div className={styles.buttonsContainer}>
-            <Button text="log in" style="outlined" />
-            <Button text="sign up" style="filled" />
+            <Link to="register" className={styles.buttonLink}>
+              <Button text="log in" style="outlined" />
+            </Link>
+            <Link to="register" className={styles.buttonLink}>
+              <Button text="sign up" style="filled" />
+            </Link>
           </div>
         )}
       </div>
